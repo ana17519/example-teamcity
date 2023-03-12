@@ -30,6 +30,7 @@ public class WelcomerTest {
 	public void welcomerSaysSomething(){
 		assertThat(welcomer.saySome(), containsString("something"));
 	}
+
 	@Test
 	public void sayArbitraryReplicaWithHunterTest(){
 		assertThat(welcomer.sayArbitraryReplicaWithHunter(), containsString("hunter"));
